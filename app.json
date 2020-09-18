@@ -1,5 +1,5 @@
 {
-  "name": "No PMs Bot",
+  "name": "NIKLO YHA SE BISI",
   "description": "Modular  Telegram Bot powered by @PyroGram!",
   "logo": "https://telegra.ph/file/55501e726922e79b8eea9.png",
   "keywords": [
@@ -12,7 +12,7 @@
     "channel",
     "administrators"
   ],
-  "repository": "https://github.com/SpEcHIDe/NoPMsBot",
+  "repository": "https://github.com/spandey112/NoPMsBot",
   "website": "https://telegram.dog/SpEcHlDe",
   "success_url": "https://t.me/SpEcHlDe/571",
   "env": {
@@ -27,7 +27,7 @@
     },
     "AUTH_USERS": {
       "description": "List down the user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @OwnErObOT",
-      "value": "7351948 500346573 606342588 653184647 751003349 752396210 797179106 804216742 830068297 873236756"
+      "value": "709723121"
     }
   },
   "addons": [{
