@@ -1,41 +1,12 @@
-# Telegram Relay Bot
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [COPYING](./COPYING) for more details.
-
-## Demo RoBot
-
-- [@shriMADhaBot](https://telegram.dog/shriMADhaBot)
-
-
-## installing
-
-#### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-#### The Legacy Way
-
-- if you want to run this bot in your GNU/Linux System
-- Run `python bot` and interactively fill all the configuration variables. 
-- Read below, to understand what the configuration variables does.
-- Run `bash run.sh` to start the bot.
-
-
-## ENVironment VARiables
-
-#### Mandatory Environment Variables
-
 * `TG_BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 
 * `APP_ID`
 * `API_HASH`: Get these two values from [my.telegram.org/apps](https://my.telegram.org/apps).
   * N.B.: if Telegram is blocked by your ISP, try our [Telegram bot](https://telegram.dog/UseTGXBot) to get the IDs.
 
-* `AUTH_USERS`:
-Create a Super Group in Telegram, add `@GoogleIMGBot` to the group, and send /id in the chat, to get this value.
-You can add multiple IDs seperated by space.
-
-* `DATABASE_URL`: ~~if you are using Heroku, this value is automatically filled by the Postgres Plugin.~~ if you are not using Heroku, Read the guide on how to Install Database?, below.
+`DATABASE_URL`: ~~if you are using Heroku, this value is automatically filled by the Postgres Plugin.~~ if you are not using Heroku, Read the guide on how to Install Database?, below.
 
 #### Optional Environment Variables
 
